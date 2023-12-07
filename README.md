@@ -22,14 +22,14 @@ import (
     "strings"
     "time"
 
-    "github.com/twisp/auth-go/v1"
+    "github.com/twisp/auth-go"
 )
 
 func main() {
     var (
-        accountID = "TwispAuthExample"
+        accountID = "YourAccountID"
         region    = "us-west-2"
-        api       = fmt.Sprintf("https://api.%s.cloud.twisp.com/financial/graphql/v1", region)
+        api       = fmt.Sprintf("https://api.%s.cloud.twisp.com/financial/v1/graphql", region)
     )
 
     client := &http.Client{
