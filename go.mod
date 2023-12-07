@@ -1,4 +1,4 @@
-module github.com/twisp/auth
+module github.com/twisp/auth-go
 
 go 1.20
 

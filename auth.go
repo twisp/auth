@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/twisp/auth/token"
+	"github.com/twisp/auth-go/token"
 	"golang.org/x/sync/singleflight"
 )
 
